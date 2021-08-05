@@ -33,6 +33,8 @@ Next, is to send these values to ESP, to do this I used these files:
 
 In my project, I programmed my ESP to send five GET request, each request will be handled by one of these files to return a value either '0' or '1'. And based on the button pressed one of those five will give the value '1' and the others should give '0' so specific output will be executed.
 
+**Note: this code is only compatible with ESP8266, to use this code with ESP32 you need to change <ESP8266WiFi.h> library to <WiFi.h>, and <ESP8266HTTPClient.h> to <HTTPClient.h>, and <ESP8266WebServer.h> to <WebServer.h>**
+
 For example:
 the code to send GET request in ESP code is written as: <br>
 <br>
