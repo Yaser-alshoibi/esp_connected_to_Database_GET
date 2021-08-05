@@ -62,8 +62,8 @@ the code to send GET request in ESP code is written as: <br>
 <br>
 So, as the code explained in the comments it sends GET request to the file GetDataForw.php
 Then, it will recive the response in variable called "payloadGet1"
-Then, If this value equals '1' send the sentence "Move Forward" in the serial monitor. It could be replaced to move the robot forward, for example if we used DC motors with H-Bridge driver:
-<br>
+Then, If this value equals '1' send the sentence "Move Forward" in the serial monitor. It could be replaced to move the robot forward, for example if we used DC motors with H-Bridge driver: <br>
+
 ```C++
 digitalWrite(in1, LOW);
 digitalWrite(in2, HIGH); 
@@ -71,7 +71,6 @@ digitalWrite(in3, LOW);
 digitalWrite(in4, HIGH);
 ```
 <br>
-
 and the same for all other buttons and directions.
 <br>
 
