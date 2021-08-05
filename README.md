@@ -2,11 +2,11 @@
 
 
 In this project I will show how to connect ESP to database using GET method to control robot movement.
-
+<br>
 
 # Method of Work
 
-First after plugging ESP on, the user has to scan and connect to any Wi-Fi network, and once the connection is established, the rest of the program will run.
+First, after plugging ESP on, the user has to scan and connect to any Wi-Fi network, and once the connection is established, the rest of the program will run.
 <br>
 In my control panel there are five buttons as in the picture below:
 <br>
