@@ -34,7 +34,8 @@ Next, is to send these values to ESP, to do this I used these files:
 In my project, I programmed my ESP to send five GET request, each request will be handled by one of these files to return a value either '0' or '1'. And based on the button pressed one of those five will give the value '1' and the others should give '0' so specific output will be executed.
 
 For example:
-the code to send GET request in ESP code is written as:
+the code to send GET request in ESP code is written as: <br>
+<br>
 
 ```C++
   String GetAddress1, LinkGet1, getData1;
